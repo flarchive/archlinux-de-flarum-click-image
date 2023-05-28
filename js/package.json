@@ -1,0 +1,21 @@
+{
+    "name": "@archlinux-de/flarum-click-image",
+    "private": true,
+    "devDependencies": {
+        "@flarum/prettier-config": "^1.0.0",
+        "flarum-webpack-config": "^2.0.2",
+        "prettier": "^2.8.8",
+        "raw-loader": "^4.0.2",
+        "webpack": "^5.84.1",
+        "webpack-cli": "^5.1.1"
+    },
+    "scripts": {
+        "dev": "webpack --mode development --watch",
+        "build": "webpack --mode production",
+        "analyze": "cross-env ANALYZER=true yarn run build",
+        "format": "prettier --write src",
+        "format-check": "prettier --check src"
+    },
+    "prettier": "@flarum/prettier-config",
+    "version": "0.0.0"
+}
