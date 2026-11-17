@@ -1,0 +1,23 @@
+{
+  "name": "@archlinux-de/flarum-click-image",
+  "private": true,
+  "type": "module",
+  "devDependencies": {
+    "@flarum/jest-config": "^2.0.2",
+    "@flarum/prettier-config": "^1.0.0",
+    "flarum-webpack-config": "^3.0.0",
+    "prettier": "^3.4.1",
+    "webpack": "^5.104.1",
+    "webpack-cli": "^5.1.4"
+  },
+  "scripts": {
+    "dev": "webpack --mode development --watch",
+    "build": "webpack --mode production",
+    "analyze": "cross-env ANALYZER=true yarn run build",
+    "format": "prettier --write src tests",
+    "format-check": "prettier --check src tests",
+    "test": "yarn node --experimental-vm-modules $(yarn bin jest)"
+  },
+  "prettier": "@flarum/prettier-config",
+  "version": "0.0.0"
+}
