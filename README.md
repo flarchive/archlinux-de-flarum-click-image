@@ -2,13 +2,17 @@
 
 > **Read-only archive of released versions of archlinux-de/flarum-click-image.** Not for installation: use [Packagist](https://packagist.org/packages/archlinux-de/flarum-click-image) or the [upstream repository](https://github.com/archlinux-de/flarum-click-image).
 
-**0** versions archived · Latest: [`2.0.0`](https://github.com/flarchive/archlinux-de-flarum-click-image/tree/archive/v2.0.0) · License: `GPL-3.0-or-later` · Flarum: `^2.0.0`
+**5** versions archived · Latest: [`2.0.0`](https://github.com/flarchive/archlinux-de-flarum-click-image/tree/archive/v2.0.0) · License: `GPL-3.0-or-later` · Flarum: `^2.0.0`
 
 ## Archived Versions
 
 | Version | Released | Flarum | Source |
 |---|---|---|---|
-| — | — | — | — |
+| `1.0.0` | 2022-02-12 | `^1.0.0` | [Browse](https://github.com/flarchive/archlinux-de-flarum-click-image/tree/archive/v1.0.0) |
+| `1.1.0` | 2023-05-19 | `^1.0.0` | [Browse](https://github.com/flarchive/archlinux-de-flarum-click-image/tree/archive/v1.1.0) |
+| `1.1.1` | 2023-05-28 | `^1.0.0` | [Browse](https://github.com/flarchive/archlinux-de-flarum-click-image/tree/archive/v1.1.1) |
+| `1.1.2` | 2024-12-01 | `^1.0.0` | [Browse](https://github.com/flarchive/archlinux-de-flarum-click-image/tree/archive/v1.1.2) |
+| `2.0.0` | 2026-11-17 | `^2.0.0` | [Browse](https://github.com/flarchive/archlinux-de-flarum-click-image/tree/archive/v2.0.0) |
 
 Catalog entry: [packages/archlinux-de-flarum-click-image.json](https://github.com/flarchive/archive-index/blob/main/packages/archlinux-de-flarum-click-image.json)
 
